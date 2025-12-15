@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="5" parallel="tests" name="Suite">
+	<test name="Test Scenario 1">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="version" value="128.0" />
+		<parameter name="platform" value="Windows 10" />
+		<classes>
+			<class name="Test_Java.Selenium_Adv.TestCase" />
+		</classes>
+	</test>
+	<test name="Test Scenario 2">
+		<parameter name="browser" value="MicrosoftEdge" />
+		<parameter name="version" value="127" />
+		<parameter name="platform" value="macOS Ventura" />
+		<classes>
+			<class name="Test_Java.Selenium_Adv.TestCase" />
+		</classes>
+	</test>
+</suite>

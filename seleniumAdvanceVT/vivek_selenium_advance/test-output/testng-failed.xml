@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test Scenario 2(failed)">
+    <parameter name="browser" value="MicrosoftEdge"/>
+    <parameter name="version" value="127"/>
+    <parameter name="platform" value="macOS Ventura"/>
+    <classes>
+      <class name="Test_Java.Selenium_Adv.TestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="lambdaTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test_Java.Selenium_Adv.TestCase -->
+    </classes>
+  </test> <!-- Test Scenario 2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-15T12:36:18 IST" name="Suite" finished-at="2025-12-15T12:37:04 IST" duration-ms="45322">
+    <groups>
+    </groups>
+    <test started-at="2025-12-15T12:36:18 IST" name="Test Scenario 2" finished-at="2025-12-15T12:36:37 IST" duration-ms="18567">
+      <class name="Test_Java.Selenium_Adv.TestCase">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Java.Selenium_Adv.TestCase@22fcf7ab]" started-at="2025-12-15T12:36:18 IST" name="setup" finished-at="2025-12-15T12:36:30 IST" duration-ms="11929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="lambdaTest(java.lang.String)[pri:0, instance:Test_Java.Selenium_Adv.TestCase@22fcf7ab]" started-at="2025-12-15T12:36:30 IST" name="lambdaTest" finished-at="2025-12-15T12:36:37 IST" duration-ms="6376" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed: Page Title doesnot match expected [Running Automation Tests Using TestingWhiz LambdaTest | LambdaTest] but found [LambdaTest]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed: Page Title doesnot match expected [Running Automation Tests Using TestingWhiz LambdaTest | LambdaTest] but found [LambdaTest]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at Test_Java.Selenium_Adv.TestCase.lambdaTest(TestCase.java:137)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lambdaTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_Java.Selenium_Adv.TestCase@22fcf7ab]" started-at="2025-12-15T12:36:37 IST" name="tearDown" finished-at="2025-12-15T12:36:37 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Java.Selenium_Adv.TestCase -->
+    </test> <!-- Test Scenario 2 -->
+    <test started-at="2025-12-15T12:36:18 IST" name="Test Scenario 1" finished-at="2025-12-15T12:37:04 IST" duration-ms="45322">
+      <class name="Test_Java.Selenium_Adv.TestCase">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Java.Selenium_Adv.TestCase@292b08d6]" started-at="2025-12-15T12:36:18 IST" name="setup" finished-at="2025-12-15T12:36:44 IST" duration-ms="26050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[128.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="lambdaTest(java.lang.String)[pri:0, instance:Test_Java.Selenium_Adv.TestCase@292b08d6]" started-at="2025-12-15T12:36:44 IST" name="lambdaTest" finished-at="2025-12-15T12:37:03 IST" duration-ms="18862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lambdaTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_Java.Selenium_Adv.TestCase@292b08d6]" started-at="2025-12-15T12:37:03 IST" name="tearDown" finished-at="2025-12-15T12:37:04 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Java.Selenium_Adv.TestCase -->
+    </test> <!-- Test Scenario 1 -->
+  </suite> <!-- Suite -->
+</testng-results>
