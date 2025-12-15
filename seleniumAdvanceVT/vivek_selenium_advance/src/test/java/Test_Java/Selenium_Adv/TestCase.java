@@ -38,8 +38,8 @@ public class TestCase {
 	@Parameters(value = { "browser", "version", "platform" })
 	public void setup(String browser, String version, String platform) throws MalformedURLException {
 		String hub = "@hub.lambdatest.com/wd/hub";
-		String username = "jayathirtha3";
-		String accessKey = "LT_uuGArh2n4WJdfPQoCq8BZXmxX7dvmcvXvVL11YC6IF9Zg5Z";
+		String username = "vvktiwari621";
+		String accessKey = "LT_rCN5TLhin9D3T9VpJMdhtXZIfUOxNKdoITfWpUOjnwjzUCw";
 
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("browserName", browser);
